@@ -3,10 +3,6 @@ subscription_id=YOUR_SUBSCRIPTION_ID
 resource_group=YOUR_RESOURCE_GROUP
 location=YOUR_LOCATION_NAME
 
-subscription_id=a2173e44-bdd4-4f0e-97ca-adb44fb5e107
-resource_group=tmp-0210
-location=japanwest
-
 # Get random numbers to create unique resource names
 unique_id=$RANDOM$RANDOM
 STORAGE_ACCT_NAME=ai102form${unique_id}
