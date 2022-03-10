@@ -88,7 +88,7 @@ az account list-locations -o table
 12. **subscription_id**、**resource_group**、および **location** 変数の宣言を、Form Recognizer リソースをデプロイしたサブスクリプション、リソース グループ、およびロケーション名に適切な値で変更します。 
 その後、変更を**保存**します。
 
-    **expiry_date** 変数は、演習用のままにしておきます。この変数は、共有アクセス署名 (SAS) URI を生成するときに使用されます。実際には、SAS に適切な有効期限を設定する必要があります。SAS について詳しくは、[こちら](https://docs.microsoft.com/azure/storage/common/storage-sas-overview#how-a-shared-access-signature-works)をご覧ください。  
+    **expiry_date** を確認します。有効期限が過去の日時の場合は、未来の日付に修正します。（例: `set expiry_date=2032-01-01T00:00:00Z`）この変数は、共有アクセス署名 (SAS) URI を生成するときに使用されます。SAS について詳しくは、[こちら](https://docs.microsoft.com/azure/storage/common/storage-sas-overview#how-a-shared-access-signature-works)をご覧ください。  
 
 13. **21-custom-form** フォルダーのターミナルで、次のコマンドを入力してスクリプトを実行します。
 
