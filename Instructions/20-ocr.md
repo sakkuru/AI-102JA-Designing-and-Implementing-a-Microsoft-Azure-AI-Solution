@@ -46,13 +46,13 @@ lab:
 **C#**
 
 ```
-dotnet add package Microsoft.Azure.CognitiveServices.Vision.ComputerVision --version 6.0.0
+dotnet add package Microsoft.Azure.CognitiveServices.Vision.ComputerVision
 ```
 
 **Python**
 
 ```
-pip install azure-cognitiveservices-vision-computervision==0.7.0
+pip install azure-cognitiveservices-vision-computervision
 ```
 
 3. **read-text** フォルダーの内容を表示し、構成設定用のファイルが含まれていることに注意してください。
